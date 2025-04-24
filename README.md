@@ -17,7 +17,7 @@ O projeto será construído com foco em boas práticas, utilizando **React**, **
 ### 🧭 Checklist de metas:
 
 - [x] Criar o projeto com **Vite + React**
-- [ ] Estruturar as pastas principais (pages, components, routes, etc)
+- [x] Estruturar as pastas principais (pages, components, routes, etc)
 - [ ] Instalar e configurar o **Tailwind CSS**
 - [ ] Instalar e configurar o **React Router**
 - [ ] Criar uma **página inicial simples**
@@ -29,7 +29,7 @@ O projeto será construído com foco em boas práticas, utilizando **React**, **
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [React Router](https://reactrouter.com/)
-- [Firebase (nos próximos dias)](https://firebase.google.com/)  
+- [Firebase](https://firebase.google.com/)  
   - Authentication  
   - Realtime Database  
   - Hosting
