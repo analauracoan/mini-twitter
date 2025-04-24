@@ -18,7 +18,7 @@ O projeto será construído com foco em boas práticas, utilizando **React**, **
 
 - [x] Criar o projeto com **Vite + React**
 - [x] Estruturar as pastas principais (pages, components, routes, etc)
-- [ ] Instalar e configurar o **Tailwind CSS**
+- [x] Instalar e configurar o **Tailwind CSS**
 - [ ] Instalar e configurar o **React Router**
 - [ ] Criar uma **página inicial simples**
 - [ ] Criar uma **página de erro (404)**
