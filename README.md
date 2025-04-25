@@ -7,7 +7,7 @@ O projeto será construído com foco em boas práticas, utilizando **React**, **
 ## 🚀 Progresso
 
 📆 Dia atual: **Dia 2 de 7**  
-📊 Status: `Em andamento`
+📊 Status: `Concluído`
 
 
 ## 📌 Metas por Dia
