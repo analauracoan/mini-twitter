@@ -29,10 +29,10 @@ O projeto será construído com foco em boas práticas, utilizando **React**, **
 > Hoje o desafio foi montar a página de cadastro da aplicação, focando em estruturação, layout responsivo e uso de formulário com bibliotecas modernas.
 
 - [x] Acessar o protótipo no Figma
-- [ ] Criar a página de cadastro
-- [ ] Adicionar campos para email e senha
-- [ ] Aplicar estilo responsivo com TailwindCSS
-- [ ] Integrar a página ao sistema de rotas
+- [x] Criar a página de cadastro
+- [x] Adicionar campos para email e senha
+- [x] Aplicar estilo responsivo com TailwindCSS
+- [x] Integrar a página ao sistema de rotas
 
 ## 🧰 Tecnologias utilizadas
 
