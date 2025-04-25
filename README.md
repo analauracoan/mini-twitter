@@ -36,16 +36,13 @@ O projeto será construído com foco em boas práticas, utilizando **React**, **
 
 ## 🧰 Tecnologias utilizadas
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [React Router](https://reactrouter.com/)
-- [React Hook Form](https://react-hook-form.com/)
-- [classnames](https://www.npmjs.com/package/classnames)
-- [Firebase](https://firebase.google.com/)  
-  - Authentication  
-  - Realtime Database  
-  - Hosting
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- React Hook Form
+- classnames
+- Firebase
 
 ## ▶️ Instruções para rodar localmente
 
@@ -62,4 +59,4 @@ npm run dev
 ```
 ---
 
-👩‍💻 Projeto desenvolvido por [Ana Laura Coan](https://www.linkedin.com/in/analauracoan/) como parte do desafio **#7DaysOfCode** da [Alura](https://www.alura.com.br).**
+👩‍💻 Projeto desenvolvido por [Ana Laura Coan](https://www.linkedin.com/in/analauracoan/) como parte do desafio **#7DaysOfCode** da [Alura](https://www.alura.com.br).
