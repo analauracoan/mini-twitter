@@ -4,7 +4,7 @@ import Logo from "/logo.svg";
 import { InputField } from "../components/InputField";
 import { PrimaryButton } from "../components/PrimaryButton";
 
-export const Register = () => {
+export const Login = () => {
   const {
     register,
     handleSubmit,
@@ -12,7 +12,7 @@ export const Register = () => {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log("📦 Dados enviados:", data);
+    console.log("🔐 Dados de login:", data);
   };
 
   return (
@@ -27,7 +27,7 @@ export const Register = () => {
               className="w-16 h-16 mb-3 drop-shadow"
             />
             <h1 className="text-2xl sm:text-3xl font-bold text-sky-600 text-center">
-              Criar conta
+              Acessar conta
             </h1>
           </div>
 
@@ -54,22 +54,18 @@ export const Register = () => {
               register={register}
               validation={{
                 required: "Senha é obrigatória",
-                minLength: {
-                  value: 6,
-                  message: "Senha deve ter pelo menos 6 caracteres",
-                },
               }}
               error={errors.password}
             />
 
             <PrimaryButton type="submit">
-              Criar uma nova conta
+              Entrar
             </PrimaryButton>
 
             <p className="text-sm text-gray-600 text-center mt-4">
-              Já possui uma conta?{" "}
-              <a href="/login" className="text-sky-600 hover:underline font-medium">
-                Acesse agora!
+              Ainda não tem uma conta?{" "}
+              <a href="/register" className="text-sky-600 hover:underline font-medium">
+                Crie agora!
               </a>
             </p>
           </form>
