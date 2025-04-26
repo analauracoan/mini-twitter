@@ -1,38 +1,30 @@
-# 🐦 Mini Twitter — #7DaysOfCode | React + Firebase
+# Mini Twitter — #7DaysOfCode | React + Firebase
 
-Este repositório documenta o desenvolvimento de uma aplicação inspirada no Twitter (X), feita como parte do desafio **#7DaysOfCode** da [Alura](https://www.alura.com.br/), com orientação de Matheus Castiglioni.  
+Este repositório documenta o desenvolvimento de uma aplicação inspirada no Twitter (X), feita como parte do desafio #7DaysOfCode da Alura, com orientação de Matheus Castiglioni.
 
-O projeto será construído com foco em boas práticas, utilizando **React**, **Vite**, **TailwindCSS** e **Firebase**, com objetivo de evoluir habilidades em front-end moderno e integração com serviços em tempo real.
+O projeto será construído com foco em boas práticas, utilizando React, Vite, TailwindCSS e Firebase, com objetivo de evoluir habilidades em front-end moderno e integração com serviços em tempo real.
 
 ## 🚀 Progresso
 
-📆 Dia atual: **Dia 2 de 7**  
-📊 Status: `Concluído`
-
+📆 **Dia atual**: Dia 3 de 7  
+📊 **Status**: Concluído
 
 ## 📌 Metas por Dia
 
 ### 🧩 Dia 1 — Estrutura Inicial
+O foco foi criar a fundação do projeto: estrutura, design base e configurações iniciais.
 
-> O foco foi criar a fundação do projeto: estrutura, design base e configurações iniciais.
-
-- [x] Criar o projeto com **Vite + React**
-- [x] Estruturar as pastas principais (pages, components, routes, etc)
-- [x] Instalar e configurar o **Tailwind CSS**
-- [x] Instalar e configurar o **React Router**
-- [x] Criar uma **página inicial simples**
-- [x] Criar uma **página de erro (404)**
-
+![Estrutura Inicial](./src/assets/images/home_page.png)
 
 ### 🧱 Dia 2 — Página de Cadastro
+O foco foi montar a página de cadastro da aplicação, focando em estruturação, layout responsivo e uso de formulário com bibliotecas modernas.
 
-> Hoje o desafio foi montar a página de cadastro da aplicação, focando em estruturação, layout responsivo e uso de formulário com bibliotecas modernas.
+![Página de Cadastro](./src/assets/images/register_page.png)
 
-- [x] Acessar o protótipo no Figma
-- [x] Criar a página de cadastro
-- [x] Adicionar campos para email e senha
-- [x] Aplicar estilo responsivo com TailwindCSS
-- [x] Integrar a página ao sistema de rotas
+### 🧑‍💻 Dia 3 — Página de Autenticação (Login)
+O foto foi criar a página de login, muito similar à de cadastro, com a criação da estrutura da página, utilizando componentes reutilizáveis para cadastro e login.
+
+![Página de Login](./src/assets/images/login_page.png)
 
 ## 🧰 Tecnologias utilizadas
 
@@ -44,19 +36,6 @@ O projeto será construído com foco em boas práticas, utilizando **React**, **
 - classnames
 - Firebase
 
-## ▶️ Instruções para rodar localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/mini-twitter.git
-cd mini-twitter
-
-# Instale as dependências
-npm install
-
-# Rode o projeto
-npm run dev
-```
 ---
 
-👩‍💻 Projeto desenvolvido por [Ana Laura Coan](https://www.linkedin.com/in/analauracoan/) como parte do desafio **#7DaysOfCode** da [Alura](https://www.alura.com.br).
+👩‍💻 Projeto desenvolvido por [Ana Laura Coan](https://www.linkedin.com/in/analauracoan/) como parte do desafio **#7DaysOfCode** da Alura.
