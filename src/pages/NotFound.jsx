@@ -1,8 +1,8 @@
-import { App } from "../layouts/App";
+import { Public } from "../layouts/Public";
 import { Link } from "react-router-dom";
 
 export const NotFound = () => (
-  <App>
+  <Public>
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-50 via-purple-50 to-white px-4 font-sans">
       <div className="text-center max-w-md p-8 bg-white shadow-2xl rounded-3xl border border-purple-100">
         <h1 className="text-7xl font-extrabold text-purple-500 mb-4 tracking-tight drop-shadow-sm">
@@ -22,5 +22,5 @@ export const NotFound = () => (
         </Link>
       </div>
     </div>
-  </App>
+  </Public>
 );
