@@ -6,7 +6,7 @@ O projeto será construído com foco em boas práticas, utilizando React, Vite, 
 
 ## 🚀 Progresso
 
-📆 **Dia atual**: Dia 3 de 7  
+📆 **Dia atual**: Dia 4 de 7  
 📊 **Status**: Concluído
 
 ## 📌 Metas por Dia
@@ -22,9 +22,14 @@ O foco foi montar a página de cadastro da aplicação, focando em estruturaçã
 ![Página de Cadastro](./src/assets/images/register_page.png)
 
 ### 🧑‍💻 Dia 3 — Página de Autenticação (Login)
-O foto foi criar a página de login, muito similar à de cadastro, com a criação da estrutura da página, utilizando componentes reutilizáveis para cadastro e login.
+O foco foi criar a página de login, muito similar à de cadastro, com a criação da estrutura da página, utilizando componentes reutilizáveis para cadastro e login.
 
 ![Página de Login](./src/assets/images/login_page.png)
+
+### 🏠 Dia 4 — Página Principal (Home)
+O foco foi construir a página principal da aplicação, onde usuários autenticados podem publicar e visualizar mensagens em tempo real.
+
+![Página Principal](./src/assets/images/home_page_2.png)
 
 ## 🧰 Tecnologias utilizadas
 
