@@ -2,11 +2,11 @@
 
 Este repositório documenta o desenvolvimento de uma aplicação inspirada no Twitter (X), feita como parte do desafio #7DaysOfCode da Alura, com orientação de Matheus Castiglioni.
 
-O projeto será construído com foco em boas práticas, utilizando React, Vite, TailwindCSS e Firebase, com objetivo de evoluir habilidades em front-end moderno e integração com serviços em tempo real.
+O projeto está sendo construído com foco em boas práticas, utilizando React, Vite, TailwindCSS e Firebase, com o objetivo de evoluir habilidades em front-end moderno e integração com serviços em tempo real.
 
 ## 🚀 Progresso
 
-📆 **Dia atual**: Dia 4 de 7  
+📆 **Dia atual**: Dia 5 de 7  
 📊 **Status**: Concluído
 
 ## 📌 Metas por Dia
@@ -22,7 +22,7 @@ O foco foi montar a página de cadastro da aplicação, focando em estruturaçã
 ![Página de Cadastro](./src/assets/images/register_page.png)
 
 ### 🧑‍💻 Dia 3 — Página de Autenticação (Login)
-O foco foi criar a página de login, muito similar à de cadastro, com a criação da estrutura da página, utilizando componentes reutilizáveis para cadastro e login.
+O foco foi criar a página de login, muito similar à de cadastro, com a criação da estrutura da página utilizando componentes reutilizáveis para cadastro e login.
 
 ![Página de Login](./src/assets/images/login_page.png)
 
@@ -30,6 +30,12 @@ O foco foi criar a página de login, muito similar à de cadastro, com a criaç�
 O foco foi construir a página principal da aplicação, onde usuários autenticados podem publicar e visualizar mensagens em tempo real.
 
 ![Página Principal](./src/assets/images/home_page_2.png)
+
+### 🔒 Dia 5 — Implementação de Autenticação e Proteção de Rotas
+O foco foi integrar completamente o Firebase Authentication, garantindo que apenas usuários logados possam acessar a página principal (Home).  
+Foi criada a proteção de rotas utilizando lógica de autenticação e redirecionamento para páginas de login/cadastro.
+
+![Autenticação e Rotas Protegidas](./src/assets/images/firebase_page.png)
 
 ## 🧰 Tecnologias utilizadas
 
@@ -39,7 +45,8 @@ O foco foi construir a página principal da aplicação, onde usuários autentic
 - React Router
 - React Hook Form
 - classnames
-- Firebase
+- Firebase Authentication
+- Firebase Firestore
 
 ---
 
