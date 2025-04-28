@@ -1,18 +1,35 @@
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Public } from "../layouts/Public";
 import Logo from "/logo.svg";
 import { InputField } from "../components/InputField";
 import { PrimaryButton } from "../components/PrimaryButton";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Register = () => {
+  const [requesting, setRequesting] = useState(false);
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
+  const navigate = useNavigate();
+
   const onSubmit = (data) => {
     console.log("📦 Dados enviados:", data);
+    setRequesting(true);
+
+    const auth = getAuth();
+    createUserWithEmailAndPassword(auth, data.email, data.password)
+      .then((credential) => {
+        localStorage.setItem("access-token", credential.user.accessToken);
+        navigate("/");
+      })
+      .catch((error) => console.error(error.message))
+      .finally(() => setRequesting(false));
   };
 
   return (
@@ -62,15 +79,15 @@ export const Register = () => {
               error={errors.password}
             />
 
-            <PrimaryButton type="submit">
+            <PrimaryButton request={requesting} type="submit">
               Criar uma nova conta
             </PrimaryButton>
 
             <p className="text-sm text-gray-600 text-center mt-4">
               Já possui uma conta?{" "}
-              <a href="/login" className="text-sky-600 hover:underline font-medium">
+              <Link to="/login" className="text-sky-600 hover:underline font-medium">
                 Acesse agora!
-              </a>
+              </Link>
             </p>
           </form>
         </div>
