@@ -1,11 +1,13 @@
 import { useState } from "react";
-import { App } from "../layouts/App";
 import MessageForm from "../components/MessageForm";
 import MessageList from "../components/MessageList";
+import { getAuth } from "firebase/auth";
 
 export const Home = () => {
     const [messages, setMessages] = useState([]);
-    const userEmail = "seuemail@exemplo.com";
+
+    const auth = getAuth();
+    const userEmail = auth.currentUser?.email;
 
     const handleSendMessage = (text) => {
         const newMessage = {
@@ -17,12 +19,10 @@ export const Home = () => {
     };
 
     return (
-      <App>
         <main className="flex-1 container mx-auto p-4">
           <MessageForm onSendMessage={handleSendMessage} />
           <MessageList messages={messages} />
         </main>
-      </App>
     );
 }
 
