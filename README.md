@@ -31,8 +31,8 @@ Página principal da aplicação onde usuários autenticados podem publicar e vi
 
 ![Página Principal](./src/assets/images/home_page_2.png)
 
-### 🔒 Dia 5 — Autenticação e Proteção de Rotas
-Integração completa com o Firebase Authentication. Implementadas rotas privadas e públicas com base no estado de autenticação. Foi incluído o email do usuário logado no cabeçalho da aplicação.
+### 🔒 Dia 5 — Autenticação
+Integração completa com o Firebase Authentication. 
 
 ![Autenticação e Rotas Protegidas](./src/assets/images/firebase_page.png)
 
