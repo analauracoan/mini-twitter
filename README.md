@@ -1,41 +1,45 @@
 # Mini Twitter — #7DaysOfCode | React + Firebase
 
-Este repositório documenta o desenvolvimento de uma aplicação inspirada no Twitter (X), feita como parte do desafio #7DaysOfCode da Alura, com orientação de Matheus Castiglioni.
+Este repositório documenta o desenvolvimento de uma aplicação inspirada no Twitter (X), feita como parte do desafio **#7DaysOfCode** da Alura, com orientação de Matheus Castiglioni.
 
-O projeto está sendo construído com foco em boas práticas, utilizando React, Vite, TailwindCSS e Firebase, com o objetivo de evoluir habilidades em front-end moderno e integração com serviços em tempo real.
+O projeto está sendo construído com foco em boas práticas, utilizando **React**, **Vite**, **TailwindCSS** e **Firebase**, com o objetivo de evoluir habilidades em front-end moderno e integração com serviços em tempo real.
 
 ## 🚀 Progresso
 
-📆 **Dia atual**: Dia 5 de 7  
+📆 **Dia atual**: Dia 6 de 7  
 📊 **Status**: Concluído
 
 ## 📌 Metas por Dia
 
 ### 🧩 Dia 1 — Estrutura Inicial
-O foco foi criar a fundação do projeto: estrutura, design base e configurações iniciais.
+Criada a fundação do projeto: estrutura, design base e configurações iniciais.
 
 ![Estrutura Inicial](./src/assets/images/home_page.png)
 
 ### 🧱 Dia 2 — Página de Cadastro
-O foco foi montar a página de cadastro da aplicação, focando em estruturação, layout responsivo e uso de formulário com bibliotecas modernas.
+Desenvolvida a página de cadastro com layout responsivo e formulários usando React Hook Form.
 
 ![Página de Cadastro](./src/assets/images/register_page.png)
 
 ### 🧑‍💻 Dia 3 — Página de Autenticação (Login)
-O foco foi criar a página de login, muito similar à de cadastro, com a criação da estrutura da página utilizando componentes reutilizáveis para cadastro e login.
+Criada a página de login utilizando componentes reutilizáveis e boas práticas de autenticação.
 
 ![Página de Login](./src/assets/images/login_page.png)
 
 ### 🏠 Dia 4 — Página Principal (Home)
-O foco foi construir a página principal da aplicação, onde usuários autenticados podem publicar e visualizar mensagens em tempo real.
+Página principal da aplicação onde usuários autenticados podem publicar e visualizar mensagens em tempo real.
 
 ![Página Principal](./src/assets/images/home_page_2.png)
 
-### 🔒 Dia 5 — Implementação de Autenticação e Proteção de Rotas
-O foco foi integrar completamente o Firebase Authentication, garantindo que apenas usuários logados possam acessar a página principal (Home).  
-Foi criada a proteção de rotas utilizando lógica de autenticação e redirecionamento para páginas de login/cadastro.
+### 🔒 Dia 5 — Autenticação e Proteção de Rotas
+Integração completa com o Firebase Authentication. Implementadas rotas privadas e públicas com base no estado de autenticação. Foi incluído o email do usuário logado no cabeçalho da aplicação.
 
 ![Autenticação e Rotas Protegidas](./src/assets/images/firebase_page.png)
+
+### 🧭 Dia 6 — Comportamento de Login e Navegação
+Adicionados os comportamentos na página de autenticação: login funcional com Firebase, rotas protegidas redirecionando corretamente, exibição do e-mail do usuário logado no cabeçalho e implementação da funcionalidade de logout.
+
+![Comportamentos de Autenticação](./src/assets/images/email_auth.png)
 
 ## 🧰 Tecnologias utilizadas
 
