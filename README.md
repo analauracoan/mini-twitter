@@ -41,6 +41,15 @@ Adicionados os comportamentos na página de autenticação: login funcional com 
 
 ![Comportamentos de Autenticação](./src/assets/images/email_auth.png)
 
+### ☁️ Dia 7 — Deploy com Firebase Hosting
+Finalizado o projeto com build otimizada via Vite e deploy na web utilizando o Firebase Hosting.  
+Também foi revisado o layout, implementado componente de loading nas rotas públicas e criado um layout padrão reutilizável para páginas públicas.
+
+📦 `npm run build`  
+🚀 `firebase deploy`
+
+![Deploy Hosting](./src/assets/images/deploy.png)
+
 ## 🧰 Tecnologias utilizadas
 
 - React
