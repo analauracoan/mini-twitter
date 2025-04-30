@@ -1,8 +1,14 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-
+import { getDatabase } from "firebase/database";
 import firebaseConfig from "../../firebase.config.json";
 
-const connect = () => initializeApp(firebaseConfig);
+let app;
+let database;
+
+const connect = () => {
+  app = initializeApp(firebaseConfig);
+  database = getDatabase(app);
+  return { app, database };
+};
 
 export { connect };
