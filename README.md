@@ -6,7 +6,7 @@ O projeto está sendo construído com foco em boas práticas, utilizando **React
 
 ## 🚀 Progresso
 
-📆 **Dia atual**: Dia 6 de 7  
+📆 **Dia atual**: Dia 7 de 7  
 📊 **Status**: Concluído
 
 ## 📌 Metas por Dia
@@ -43,7 +43,6 @@ Adicionados os comportamentos na página de autenticação: login funcional com 
 
 ### ☁️ Dia 7 — Deploy com Firebase Hosting
 Finalizado o projeto com build otimizada via Vite e deploy na web utilizando o Firebase Hosting.  
-Também foi revisado o layout, implementado componente de loading nas rotas públicas e criado um layout padrão reutilizável para páginas públicas.
 
 📦 `npm run build`  
 🚀 `firebase deploy`
